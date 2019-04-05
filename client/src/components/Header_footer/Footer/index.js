@@ -76,6 +76,6 @@ const Footer = ({data}) => {
     </footer>
     : null
   );
-};
+}
 
 export default Footer;
