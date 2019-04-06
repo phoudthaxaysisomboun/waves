@@ -1,0 +1,3 @@
+mongorestore -h Cluster0-shard-0/cluster0-shard-00-00-yskqf.mongodb.net:27017,cluster0-shard-00-01-yskqf.mongodb.net:27017,cluster0-shard-00-02-yskqf.mongodb.net:27017 --ssl -u phoudthaxay -p 77870219 --authenticationDatabase admin -d waves "C:\Users\bobby\Desktop\dump\waves"
+
+mongodump -h localhost:27017 -d waves -o "C:\Users\bobby\Desktop\dump"
