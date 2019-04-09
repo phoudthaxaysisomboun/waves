@@ -4,15 +4,15 @@ import { connect } from 'react-redux'
 
 const links = [
   {
-    name: 'My Account',
+    name: 'ບັນຊີ',
     linkTo: '/user/dashboard'
   },
   {
-    name: 'User information',
+    name: 'ຂໍ້ມູນສ່ວນຕົວ',
     linkTo: '/user/user_profile'
   },
   {
-    name: 'My Cart',
+    name: 'ກະຕ່າ',
     linkTo: '/user/cart'
   },
 ]
@@ -49,7 +49,7 @@ const UserLayout = (props) => {
     <div className="container">
       <div className="user_container">
         <div className="user_left_nav">
-          <h2>My account</h2>
+          <h2>ບັນຊີຂອງຂ້ອຍ</h2>
           <div className="links">
             { generateLinks(links) }
           </div>

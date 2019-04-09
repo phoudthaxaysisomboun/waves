@@ -1,7 +1,113 @@
+@font-face {
+    font-family: 'noto_sans_lao_uiblack';
+    src: url('../fonts/notosanslaoui-black-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'noto_sans_lao_uibold';
+    src: url('../fonts/notosanslaoui-bold-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'noto_sans_lao_uiextrabold';
+    src: url('../fonts/notosanslaoui-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'noto_sans_lao_uiextralight';
+    src: url('../fonts/notosanslaoui-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'noto_sans_lao_uilight';
+    src: url('../fonts/notosanslaoui-light-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'noto_sans_lao_uimedium';
+    src: url('../fonts/notosanslaoui-medium-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'noto_sans_lao_uiregular';
+    src: url('../fonts/notosanslaoui-regular-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'noto_sans_lao_uisemibold';
+    src: url('../fonts/notosanslaoui-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'noto_sans_lao_uithin';
+    src: url('../fonts/notosanslaoui-thin-webfont.woff2') format('woff2'),
+         url('../fonts/notosanslaoui-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     margin:0;
     padding:0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'noto_sans_lao_uimedium', sans-serif;
     color: #404040;
 }
 
