@@ -10,6 +10,7 @@ class Home extends Component {
   componentDidMount = () => {
     this.props.dispatch(getProductBySell())
     this.props.dispatch(getProductByArrival())
+    document.title = 'Home - Waves'
   }
 
   render() {
