@@ -49,7 +49,7 @@ const UserLayout = (props) => {
     <div className="container">
       <div className="user_container">
         <div className="user_left_nav">
-          <h2>ບັນຊີຂອງຂ້ອຍ</h2>
+          <h2 style={{fontFamily: 'noto_sans_lao_uiblack'}}>ບັນຊີຂອງຂ້ອຍ</h2>
           <div className="links">
             { generateLinks(links) }
           </div>
