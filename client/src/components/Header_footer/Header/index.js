@@ -9,34 +9,34 @@ class Header extends Component {
   state = {
     page: [
       {
-        name: 'Home',
+        name: 'ຫນ້າຫລັກ',
         linkTo: '/',
         public: true
       },
       {
-        name: 'Guitars',
+        name: 'ກີຕາຣ໌',
         linkTo: '/shop',
         public: true
       }
     ],
     user: [
       {
-        name: 'My Cart',
+        name: 'ກະຕ່າຂອງຂ້ອຍ',
         linkTo: '/user/cart',
         public: false
       },
       {
-        name: 'My Account',
+        name: 'ບັນຊີຂອງຂ້ອຍ',
         linkTo: '/user/dashboard',
         public: false
       },
       {
-        name: 'Log in',
+        name: 'ລົງຊື່ເຂົ້າໃຊ້',
         linkTo: '/register_login',
         public: true
       },
       {
-        name: 'Log out',
+        name: 'ລົງຊື່ອອກ',
         linkTo: '/user/logout',
         public: false
       }
@@ -64,7 +64,7 @@ class Header extends Component {
   }
 
   defaultLink = (item, i) => (
-    item.name === 'Log out' ? 
+    item.name === 'ລົງຊື່ອອກ' ? 
     <div className="log_out_link" 
     key={i}
     onClick={() => this.logoutHandler()}>

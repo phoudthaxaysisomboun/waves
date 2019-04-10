@@ -15,7 +15,7 @@ const Footer = ({data}) => {
         </div>
         <div className="wrapper">
           <div className="left">
-            <h2>Contact information</h2>
+            <h2>ຂໍ້ມູຣການຕິດຕໍ່</h2>
             <div className="business_nfo">
               <div className="tag">
                 <FontAwesomeIcon
@@ -23,7 +23,7 @@ const Footer = ({data}) => {
                   className="icon"
                 />
                 <div className="nfo">
-                  <div>Address</div>
+                  <div>ທີ່ຫຢູ່</div>
                   <div>{data.siteData[0].address}</div>
                 </div>
               </div>
@@ -34,7 +34,7 @@ const Footer = ({data}) => {
                   className="icon"
                 />
                 <div className="nfo">
-                  <div>Phone</div>
+                  <div>ໂທຣສັພ</div>
                   <div>{data.siteData[0].phone}</div>
                 </div>
               </div>
@@ -45,7 +45,7 @@ const Footer = ({data}) => {
                   className="icon"
                 />
                 <div className="nfo">
-                  <div>Working hours</div>
+                  <div>ເວລາທໍາງານ</div>
                   <div>{data.siteData[0].hours}</div>
                 </div>
               </div>
@@ -56,7 +56,7 @@ const Footer = ({data}) => {
                   className="icon"
                 />
                 <div className="nfo">
-                  <div>Email</div>
+                  <div>ອີເມລ</div>
                   <div>{data.siteData[0].email}</div>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Footer = ({data}) => {
             </div>
           </div>
           <div className="left">
-            <h2>Be the first to know</h2>
+            <h2>ເປັນຄົນແຣກທີ່ຮູ້</h2>
             <div>
               <div>
                 Get all the latest information on events, sales and offers. You can miss out.
